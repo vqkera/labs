@@ -1,0 +1,37 @@
+/* war */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.game-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.player-board, .enemy-board {
+    text-align: center;
+}
+.board {
+    border-collapse: collapse;
+    margin: auto;
+}
+th, td {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+    background-color: #a9c9ff;
+}
+th {
+    background: #666;
+    color: white;
+    font-weight: bold;
+}
+td.ship {
+    background-color: #555;
+}
+
+td.mship {
+    background-color: #d62626;
+}
